@@ -1,0 +1,17 @@
+# Ignore environment files
+.env
+
+# Ignore other files you may not want to track
+.env.local
+.env.*.local
+
+# Node-related files (if you are using Node.js)
+node_modules/
+
+# IDE files (for example, if you are using VSCode)
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
