@@ -93,7 +93,7 @@ with st.sidebar:
     elif selected_model == 'gemini-2.5-flash':
         llm = 'https://generativelanguage.googleapis.com/v1beta/openai/'
     llm_url = st.sidebar.text_input("local base url", llm)
-    st.sidebar.write(st.session_state["llm3_status"])
+    st.sidebar.markdown(f"`{st.session_state['llm3_status']}`")
     st.session_state["temperature"] = st.sidebar.slider("temperature", 0.01, 1.0, 0.1, 0.01)
     st.session_state["top_p"] = st.sidebar.slider("top_p", 0.01, 1.0, 0.9, 0.01)
 st.sidebar.button('Clear Chat', on_click=clear_chat_histroy, icon="🧹")
