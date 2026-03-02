@@ -1,0 +1,47 @@
+# 🎍 LLM Basics
+
+
+**1. 👐 Open Source vs 🔒 Closed Source** 
+  - **Open Source** – Anyone can see, use, or modify the model (e.g., LLaMA, MPT)  
+  - **Closed Source** – Only the company can access or modify it (e.g., GPT-4, Claude)  
+
+**2. 💬 Chat / 🧠 Reasoning / ⚡ Hybrid**
+
+  - **Chat** – Optimized for conversations  
+  - **Reasoning** – Optimized for logic, math, problem-solving  
+  - **Hybrid** – Can do both chatting and reasoning 
+
+**3. 📅 Release Date & Knowledge Cut-off** 
+
+  - **Release Date** – When the model was made available  
+  - **Knowledge Cut-off** – Latest date of the information the model learned  
+
+**4. ⚖️ Parameters**- “Brain size” of the model; more parameters = can learn more patterns  
+
+**5. 📚 Training Tokens**- Pieces of text the model read during training; more tokens = more knowledge  
+
+**6. 🖼 Context Window**  - How much text the model can “see” at once; bigger window = better memory for longer text
+
+**7. 💰 Inference Cost**  - Cost to generate outputs after the model is trained; depends on size and speed  
+
+**8. 🏗 Training Cost**  - Expense to train the model from scratch; higher for bigger models or more tokens  
+
+**9. 🛠 Build / Development Cost**  - Cost to fine-tune, deploy, and maintain the model for real-world use  
+
+**10. ⏱ Time to Market**  - How fast a model or service can be deployed and usable  
+
+**11. 🔢 Rate Limit**  - Maximum number of requests the model can handle per second or per minute  
+
+**12. ⚡ Speed / Latency**  - How fast the model responds; latency is the delay per request  
+
+**13. 📄 License**  - Legal terms of using, modifying, or distributing the model; differs for open vs closed source
+
+
+## 📊 Benchmarks
+
+- GPQA - PhD Science Expertice
+- MMLU-Pro - Massive Multitask Language Understanding
+- AIME - Advanced Math problems
+- LiveCode Bench - Real-time coding
+- MuSR - Multilingual Super Reasoning
+- HLE - Human-Like Evaluation
