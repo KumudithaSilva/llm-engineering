@@ -18,3 +18,7 @@ node_modules/
 
 # Colab
 Colab.ipynb
+
+# Main file
+llm-udemy
+llm_RAG/knowledge-base
