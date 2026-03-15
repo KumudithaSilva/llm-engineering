@@ -112,14 +112,13 @@ def evaluate_retrieval(test: TestQuestion, k: int = 10) -> RetrievalEval:
         (keywords_found / total_keywords * 100) if total_keywords > 0 else 0.0
     )
 
-    # return RetrievalEval(
-    #     mrr=avg_mrr,
-    #     ndcg=avg_ndcg,
-    #     keywords_found=keywords_found,
-    #     total_keywords=total_keywords,
-    #     keyword_coverage=keyword_coverage,
-    # )
-    return retrieved_docs
+    return RetrievalEval(
+        mrr=avg_mrr,
+        ndcg=avg_ndcg,
+        keywords_found=keywords_found,
+        total_keywords=total_keywords,
+        keyword_coverage=keyword_coverage,
+    )
 
 
 def evaluate_answer(test: TestQuestion) -> tuple[AnswerEval, str, list]:
