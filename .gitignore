@@ -25,3 +25,6 @@ llm_RAG/knowledge-base
 
 # Vector Database
 vector_db
+
+# Notebooks
+multi.py
