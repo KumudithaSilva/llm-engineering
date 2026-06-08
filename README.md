@@ -1,6 +1,6 @@
 # 🧠 AI Engineer Core Track – LLM Engineering, RAG & Agents
 
-This repo contains **experiments, and implementations**focused on **Large Language Model (LLM)**, **Retrieval-Augmented Generation (RAG)**, **fine-tuning**, and **agentic AI systems**.
+This repo contains experiments, and implementations focused on **Large Language Model (LLM)**, **Retrieval-Augmented Generation (RAG)**, **fine-tuning**, and **agentic AI systems**.
 
 The emphasis is on **tools, techniques, and system design patterns** used to build modern, production-grade GenAI applications.
 
