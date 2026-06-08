@@ -65,6 +65,17 @@ Some LLMs combine multiple flavors into **Hybrid** models, offering a balance be
 
 ---
 
+## 📔 Prompt Caching
+
+It saving the results of previous AI prompts so when same thing ask again, the system can reuse the old answer instead of generating it again.
+
+- Faster responses – no need to wait for the AI to process the same prompt again.
+- Saves cost – repeated prompts don’t cost extra.
+- Consistency – get the same answer every time for the same prompt.
+
+---
+
+
 > Choosing the right LLM flavor can drastically improve the results. Base for efficiency, Chat/Instruct for interaction, and Reasoning for deep problem-solving. 🌟
 
 

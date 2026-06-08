@@ -15,3 +15,16 @@ node_modules/
 # Logs and temporary files
 *.log
 *.tmp
+
+# Colab
+Colab.ipynb
+
+# Main file
+llm-udemy
+llm_RAG/knowledge-base
+
+# Vector Database
+vector_db
+
+# Notebooks
+multi.py
